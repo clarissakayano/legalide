@@ -1,0 +1,11 @@
+import styled from "styled-components";
+
+export const Title = styled.div`
+font-family: Martel;
+`;
+
+export const Text = styled.p`
+font-family: Open sans-serif;
+color: #737373;
+
+`;
