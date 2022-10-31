@@ -11,10 +11,6 @@ import './styles/GlobalStyles.js';
 import Footer from './components/Footer';
 
 
-// o Card não pode ser o col
-//row já é d-flex
-
-
 const App = () => (
   <>
     <div>
