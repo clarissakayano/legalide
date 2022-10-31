@@ -9,19 +9,15 @@ export const BannerContainer = styled.section`
 
 .btn1 {
     padding: 10px 36px;
-    width: 182px;
-    height:48px;
     background: #D0A144;
     border-radius: 37px;
-    border-style: none;
+    border-color: white;
     color: #FFFFFF;
     font-size: 14px;
 }
 
 .btn2 {
     padding: 10px 36px;
-    width: 182px;
-    height:48px;
     border-radius: 37px;
     background: none;
     border-color: white;

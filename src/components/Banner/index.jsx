@@ -5,7 +5,7 @@ import {Log} from './style';
 import {Nav} from './style';
 import { Sub } from './style';
 import { BsSearch } from 'react-icons/bs';
-import {MdOutlineShoppingCart} from 'react-icons/md'
+import {MdOutlineShoppingCart} from 'react-icons/md';
 
 
 
