@@ -11,11 +11,15 @@ export const GetIn = styled.div`
         margin-top: 15px;
     }
     .btn-primary{
+        font-family: Open Sans;
+        font-weight: 700;
         background-color: transparent;
         color:#295C7A;
         border-color: #295C7A;
     }
     .btn-primary2{
+        font-family: Open Sans;
+        font-weight: 700;
         background-color: transparent;
         color:white;
         border-color: white;

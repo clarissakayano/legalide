@@ -16,7 +16,18 @@ export const ContainerRequest = styled.div`
     font-family: Open Sans;
     font-size: 14px;
 }
+.align{
+    text-align: -webkit-center;
+}
+`;
 
+export const Text = styled.h3`
+    color: white;
+    font-family: Martel;
+`;
+export const Sub = styled.p`
+font-family: Open Sans;
+color: white;
 `;
 
 export const List = styled.div`

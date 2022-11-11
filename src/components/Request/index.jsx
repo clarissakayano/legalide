@@ -1,5 +1,5 @@
 import './styles';
-import { Button, Container, ContainerRequest } from './styles';
+import { Button, Container, ContainerRequest, Sub, Text } from './styles';
 import { List } from './styles';
 import MainTitle from '../MainTitle';
 
@@ -12,20 +12,20 @@ import arrow2 from '../../assets/arrow2.png'
 
 const RequestCons = () => (
 
-    <>
-        <Container>
+<>
+    <Container className="mb-4">
         <div className="container mt-5" id="ContactUs">
             <div className="row d-flex d-sm-flex">
                 <div className="col-md-6 row-cols p-2">
-                <MainTitle
-                    title="Request A Free Consultation"
-                    description="the quick fox jumps over the lazy dog"
-                />
+                    <div className="d-flex flex-column align-items-center">
+                        <Text>Request A Free Consultation</Text>
+                        <Sub>the quick fox jumps over the lazy dog</Sub>
+                    </div>
                 </div>
                 <div className="col-md-6 col-sm-7 g-sm-1">
-                <div className="d-flex justify-content-end mt-5">
-                    <Button>Contact Us</Button>
-                </div>
+                    <div className="d-flex justify-content-center">
+                        <Button>Contact Us</Button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -80,7 +80,7 @@ const RequestCons = () => (
             </div>
         </div>
     </ContainerRequest>
-    </>
+</>
 
 );
 

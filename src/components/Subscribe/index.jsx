@@ -12,7 +12,7 @@ import et from '../../assets/et6.png';
 const Subscribe = () => (
     <Sub>
         <div className="container mt-5">
-            <div className="row text-center">
+            <div className="row text-center g-4">
                     <div className="col-md-2 mb-2">
                         <img src={hooli} alt="logo" />
                     </div>
