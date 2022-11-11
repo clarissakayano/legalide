@@ -14,7 +14,7 @@ const GetInTouch =() => (
                 description2="the two major realms of Classical physics: Newtonian mechanics "
         />
         <div className="container d-flex justify-content-center mb-5 align-items-center p-0">
-            <div className="row row-cols-md-3 row-cols-sm-2 g-3 g-md-0">
+            <div className="row row-cols-md-3 row-cols-sm-2 g-3 g-md-0 margin">
                 <div  className="col py-md-4 d-flex">
                 <GetCard
                     image={tel}

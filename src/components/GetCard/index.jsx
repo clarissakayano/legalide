@@ -1,15 +1,15 @@
 
-import {GetIn, Textcolor, Title1, Title2} from "./styles";
+import {Email, GetIn, Title2} from "./styles";
 
 
-const GetCard = ({ image, imagetext, email1, email2, color="dark", button = false, button2 = false, backgroundColor, title2 = false }) => (
+const GetCard = ({ image, email1, email2, color="dark", button = false, button2 = false, backgroundColor}) => (
 
     <GetIn className={`card d-flex w-100 text-${color}`} backgroundColor={backgroundColor}>
         <div className="card-body d-flex flex-column align-items-center justify-content-center">
-            <img src={image} alt="..." />
-            <h6 className="card-text mt-2">{email1}</h6>
-            <h6 className="card-text">{email2}</h6>
-             <Title2 className="card-title">Get Support</Title2>
+            <img className="mt-3" src={image} alt="..." />
+            <Email className="card-text mt-2">{email1}</Email>
+            <Email className="card-text">{email2}</Email>
+             <Title2 className="card-title mt-2 mb-3">Get Support</Title2>
             {button &&
                 <div>
                     <a href="https://www.google.com/" className="btn btn-primary">{button}</a>
@@ -17,7 +17,7 @@ const GetCard = ({ image, imagetext, email1, email2, color="dark", button = fals
             {button2 &&
             <div>
                 <a href="https://www.google.com/" className="btn btn-primary2">{button2}</a>
-                </div>
+            </div>
             }
         </div>
     </GetIn>

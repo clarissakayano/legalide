@@ -7,7 +7,7 @@ export const ContainerWho = styled.div`
 }
 
 .margin {
-    margin-left: 25px ;
+    margin: 16px 0px ;
 }
 `;
 

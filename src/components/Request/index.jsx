@@ -24,7 +24,7 @@ const RequestCons = () => (
                 </div>
                 <div className="col-md-6 col-sm-7 g-sm-1">
                 <div className="d-flex justify-content-end mt-5">
-                    <Button>Contact us</Button>
+                    <Button>Contact Us</Button>
                 </div>
                 </div>
             </div>

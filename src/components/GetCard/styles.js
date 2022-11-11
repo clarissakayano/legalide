@@ -23,12 +23,17 @@ export const GetIn = styled.div`
 
 `;
 
+export const Email = styled.h6`
+    font-family: 'Open Sans', sans-serif;
+    font-weight: revert;
+`;
+
 export const Title1 = styled.h5`
-color: black;
-font-family: Open-Sans;
+    color: black;
+    font-family: Open-Sans;
 `;
 
 export const Title2 = styled.h5`
-font-family: Open-Sans;
-font-size: 20px;
+    font-family: Martel;
+    font-size: 16px;
 `;

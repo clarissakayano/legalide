@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const CardStyle = styled.div`
  box-shadow: 0px 13px 19px rgba(0,0,0,0.7);
  padding: 0;
+ display: flex;
 
  .box{
     aspect-ratio: 16 / 9;
@@ -16,11 +17,12 @@ export const CardStyle = styled.div`
  }
 `;
 
-export const Title = styled.div`
-font-family: Martel;
+export const Title = styled.h3`
+font-family: 'Martel' ,serif;
+color: #252B42;
 `;
 
 export const Text = styled.p`
-font-family: Open sans-serif;
+font-family: Open Sans;
 color: #737373;
 `;

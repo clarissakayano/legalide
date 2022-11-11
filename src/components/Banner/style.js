@@ -6,15 +6,18 @@ export const BannerContainer = styled.section`
     background-repeat: no-repeat;
     background-size: cover;
 
+    .btn1 {
+      padding: 10px 36px;
+      background: transparent;
+      border-radius: 37px;
+      border-color: white;
+      color: #FFFFFF;
+      font-size: 14px;
+    }
 
-.btn1 {
-    padding: 10px 36px;
-    background: #D0A144;
-    border-radius: 37px;
-    border-color: white;
-    color: #FFFFFF;
-    font-size: 14px;
-}
+    .btn1:hover, .btn2:hover{
+      background-color: #D0A144;
+    }
 
 .btn2 {
     padding: 10px 36px;
@@ -24,6 +27,10 @@ export const BannerContainer = styled.section`
     color: #FFFFFF;
     font-size: 14px;
 }
+
+  &:hover{
+    background-color:#D0A144;
+  }
 
 /* unvisited link */
 a:link {
@@ -58,8 +65,8 @@ a:link {
 `;
 
 export const Nav = styled.nav`
-    text-decoration: none;
-   font-family: Open Sans;
+  text-decoration: none;
+  font-family: Open Sans;
 
    .nav-item{
      margin: 0 15px;
@@ -89,9 +96,9 @@ export const MobileMenu = styled.div`
 
 export const Log = styled.h3`
     color: white;
-    font-family: Mart;
-    font-weight: 50;
+    font-family: Martel;
     font-size: 24px;
+    align-items: flex-start;
 `;
 
 
@@ -102,7 +109,7 @@ export const Title = styled.h1`
 `;
 
 export const Sub = styled.h4`
-    font-family: Montserrat;
+    font-family: 'Montserrat', sans-serif;
     color: white;
     size: 20px;
 

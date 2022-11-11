@@ -10,7 +10,7 @@ export const Sub = styled.div`
 .btn-sub {
     background-color: rgba(208, 161, 68, 1);
     color: white;
-    font-family: Mont;
+    font-family: Montesserrat;
     size: 14px;
     border-radius: 0px 5px 5px 0px;
     border: white;
@@ -23,6 +23,10 @@ export const Sub = styled.div`
 .inputtext{
     font-family: Mart;
     size: 14px;
+}
+.margin{
+    margin: 16px 0px;
+    padding: 0px 12px;
 }
 `;
 

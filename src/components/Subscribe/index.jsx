@@ -36,7 +36,7 @@ const Subscribe = () => (
         <div className="container mt-5">
             <div className="row d-flex d-sm-flex bg-blue">
                 <div className="col-md-6 row-cols p-2">
-                    <Text className="text-center">Subscribe For Latest<br></br>
+                    <Text className="text-center text-lg-start mt-3">Subscribe For Latest<br></br>
                     Newsletter</Text>
                 </div>
                 <div className="col-md-6 d-flex p-4">

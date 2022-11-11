@@ -4,17 +4,13 @@ import {Title} from './style';
 import {Log} from './style';
 import {Nav} from './style';
 import { Sub } from './style';
-import { BsSearch } from 'react-icons/bs';
-import {MdOutlineShoppingCart} from 'react-icons/md';
-
-
 
 const Banner = () => (
     <BannerContainer>
         <header>
             <div>
                 <div className="container d-flex justify-content-between">
-                    <Log className="col-md-6 p-4 d-none d-md-block d-lg-block d-xl-block">Legalide</Log>
+                    <Log className="col-md-6 mt-4 d-none d-md-block d-lg-block d-xl-block">Legalide</Log>
                     <Nav className="d-flex p-4 col-md-6 row-col-none d-none d-md-block d-lg-block d-xl-block">
                         <div className="d-flex justify-content-between">
                             <a href="#Practice">Practice Areas</a>
@@ -30,12 +26,6 @@ const Banner = () => (
                             <Log className="col-6 p-3">Legalide</Log>
                             <nav className="col-6 navbar navbar-dark">
                                 <div className="container-fluid d-flex justify-content-center">
-                                <div className="px-3">
-                                    <BsSearch color='white' />
-                                    </div>
-                                    <div  className="px-3">
-                                        <MdOutlineShoppingCart  size={18} color='white' />
-                                    </div>
                                     <ButtonMain className="navbar-toggler" type="button"
                                     data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
                                     aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">

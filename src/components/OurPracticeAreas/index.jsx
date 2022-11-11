@@ -8,7 +8,8 @@ import paper from "../../assets/paper.png";
 
 const OurPracticeAreas =() => (
     <div className="container">
-        <a id="Practice"><MainTitle className="text-color"
+        <a id="Practice">
+            <MainTitle className="text-color"
             title="Our Practice Areas"
             description ="Problems trying to resolve the conflict between"
             description2="the two major realms of Classical physics: Newtonian mechanics"

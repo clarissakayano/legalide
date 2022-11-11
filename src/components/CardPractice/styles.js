@@ -1,5 +1,10 @@
 import styled from "styled-components";
 
+
+export const Card = styled.div`
+font-family: Martel;
+`;
+
 export const Title = styled.div`
 font-family: Martel;
 `;

@@ -6,7 +6,7 @@ import youtube from '../../assets/youtube.png';
 import twitter from '../../assets/twitter.png';
 
 const Footer = () => (
-    <BgColor className="container">
+    <BgColor className="container mt-3 mb-4">
         <div className="row text row-cols-1 row-cols-sm-2 no-gutters">
             <div className="col">
                 <Text className="px-3">Made With Love By Figmaland All Right Reserved </Text>

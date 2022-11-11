@@ -2,16 +2,14 @@ import{Text, Title, CardStyle} from "./styles";
 
 const Card2 = ({title,description, image}) => (
 
-    <CardStyle className="container">
-        <div className="card h-100">
-            <div className="card-body">
+    <CardStyle className="card h-100">
+            <div className="card-body mt-4 mt-lg-2 me-5">
                 <Title className="card-title">{title} </Title>
-                <Text className="card-text">{description}</Text>
+                <Text className="card-text mt-4  mt-lg-2 mb-3 mb-lg-1">{description}</Text>
             </div>
             <div>
                 <img src={image} className="box card-img-top img-fluid" alt="..." />
             </div>
-        </div>
     </CardStyle>
 );
 

@@ -7,8 +7,6 @@ export default createGlobalStyle`
     }
     body {
         background-color: #252B42;
-        font-family: 'Open Sans', sans-serif;
-        font-family: 'Martel', serif;
     }
 
 

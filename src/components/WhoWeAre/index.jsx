@@ -13,7 +13,7 @@ import Video from '../Video';
 
 const WhoWeAre = () => (
        <ContainerWho id="Who">
-            <div className="container">
+            <div className="container ">
             <section className="py-5">
                 <div className="row">
                     <div className='col'>
@@ -25,10 +25,10 @@ const WhoWeAre = () => (
                     </div>
                 </div>
                 <div className="row d-md-block d-md-flex flex-row justify-content-around text-color text">
-                    <div className="col-md-5 me-3 g-3">
+                    <div className="col-md-5 d-flex justify-content-center g-3">
                         <Video />
                     </div>
-                    <div className="col-5 margin">
+                    <div className="col-md-6 col-lg-5 margin">
                         <MainTitle
                             title="Must Trusted in Our Field"
                             align="start"
@@ -36,8 +36,10 @@ const WhoWeAre = () => (
                             is designed for freelancers who want a
                             simple way to plan their schedule."
                         />
-                        <p><img src={icon1} className="me-3 text"/>the quick fox jumps over the lazy dog</p>
-                        <p><img src={icon2} className="me-3 text"/>the quick fox jumps over the lazydog</p>
+                        <div>
+                            <p><img src={icon1} className="me-3 text"/>the quick fox jumps over the lazy dog</p>
+                            <p><img src={icon2} className="me-3 text"/>the quick fox jumps over the lazydog</p>
+                        </div>
                     </div>
                 </div>
                 </section>

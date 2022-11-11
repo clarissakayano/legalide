@@ -32,7 +32,7 @@ background-color:rgba(37, 43, 66, 1);
 export const Button = styled.button`
 background-color: rgba(120, 79, 51, 1);
 color: white;
-font-family: Open-Sans;
+font-family: 'Open Sans';
 padding: 14px;
 margin: 10px;
 ;
