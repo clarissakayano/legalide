@@ -15,8 +15,8 @@ const PracticeAdvice =() => (
         />
         <div className="container">
             <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-                <div className="mt-3 d-flex">
-                <Card2 className="col"
+                <div className="col mt-3 d-flex px-4">
+                <Card2
                     title="Frauds or
                     Mislead"
                     description="Newton thought that
@@ -27,8 +27,8 @@ const PracticeAdvice =() => (
                     alt="card"
                     />
                 </div>
-                <div className="mt-3 d-flex">
-                <Card2 className="col"
+                <div className="col mt-3 d-flex px-4">
+                <Card2
                     title="Bailes &amp;
                     Warrants"
                     description="“Quantum mechanics”
@@ -37,8 +37,8 @@ const PracticeAdvice =() => (
                     image={cover3}
                     alt="card2"/>
                 </div>
-                <div className="mt-3 d-flex">
-                <Card2 className="col"
+                <div className="col d-flex mt-3 px-4">
+                <Card2
                     title="Federal Drug
                     Crimes"
                     description="They describe a
@@ -47,8 +47,8 @@ const PracticeAdvice =() => (
                     image={table}
                     alt="card3"/>
                 </div>
-                <div className="mt-3 d-flex">
-                <Card2 className="col"
+                <div className="col mt-3 d-flex px-4">
+                <Card2
                     title="Traffic Related
                     Crimes"
                     description="They finally obtained

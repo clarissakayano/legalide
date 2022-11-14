@@ -16,7 +16,7 @@ const OurPracticeAreas =() => (
         />
             </a>
 
-            <div className="row">
+            <div className="row g-2">
                 <div className="col d-flex">
                     <Cards title="Card 1"
                     image={balance}

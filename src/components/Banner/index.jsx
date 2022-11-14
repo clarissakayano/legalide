@@ -50,17 +50,17 @@ const Banner = () => (
         <div className="container">
             <div className="row">
                 <div className="col d-flex flex-column justify-content-center">
-                    <Title className="mt-4 py-4" id="Legal">LEGAL PRO SERVICES</Title>
-                    <Sub className="mb-3 mt-3">
+                    <Title className="mt-4 py-4 text-center text-md-start" id="Legal">LEGAL PRO SERVICES</Title>
+                    <Sub className="mb-3 mt-3  text-center text-md-start">
                         We know how large objects will act,
                         but things on a small scale.
                     </Sub>
-                    <div className='row-col-md-4 mt-3'>
+                    <div className='row-col-md-4 mt-3 text-center text-lg-start'>
                         <button className="btn1 btn-primary me-2" type="submit">Get Quote Now</button>
                         <button className="btn2 btn-primary mt-4" type="submit">Learn More</button>
                     </div>
                 </div>
-                <div className="col mt-4">
+                <div className="col mt-4 text-center text-lg-start">
                     <img id="woman" className="img-sm" src={woman} alt="Woman" />
                 </div>
             </div>

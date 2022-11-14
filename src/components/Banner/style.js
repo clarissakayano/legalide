@@ -105,11 +105,12 @@ export const Log = styled.h3`
 export const Title = styled.h1`
     font-size: 58px;
     color: white;
-   font-family: Martel;
+    font-family: Martel;
 `;
 
 export const Sub = styled.h4`
-    font-family: 'Montserrat', sans-serif;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 700;
     color: white;
     size: 20px;
 

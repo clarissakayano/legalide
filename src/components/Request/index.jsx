@@ -17,9 +17,9 @@ const RequestCons = () => (
         <div className="container mt-5" id="ContactUs">
             <div className="row d-flex d-sm-flex">
                 <div className="col-md-6 row-cols p-2">
-                    <div className="d-flex flex-column align-items-center">
+                    <div className="d-flex flex-column align-items-md-start text-center">
                         <Text>Request A Free Consultation</Text>
-                        <Sub>the quick fox jumps over the lazy dog</Sub>
+                        <Sub className="align-self-center align-self-lg-start">the quick fox jumps over the lazy dog</Sub>
                     </div>
                 </div>
                 <div className="col-md-6 col-sm-7 g-sm-1">
@@ -32,9 +32,9 @@ const RequestCons = () => (
         </Container>
         <ContainerRequest>
         <div className="container bg-blue m-mobile">
-            <div className="row text row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-6 pt-5">
+            <div className="row text row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 pt-5">
                 <div className="col">
-                    <p className="mb-3">Company Info</p>
+                    <h5 className="mb-3">Company Info</h5>
                     <List className="list-unstyled mb-5">
                         <li className="mb-2">About Us</li>
                         <li className="mb-2">Carrier</li>
@@ -43,7 +43,7 @@ const RequestCons = () => (
                     </List>
                 </div>
                 <div className="col">
-                    <p className="mb-3">Legal</p>
+                    <h5 className="mb-3">Legal</h5>
                     <List className="mb-5 list-unstyled">
                         <li className="mb-2">About Us</li>
                         <li className="mb-2">Carrier</li>
@@ -52,7 +52,7 @@ const RequestCons = () => (
                     </List>
                 </div>
                 <div className="col">
-                    <p className="mb-3">Features</p>
+                    <h5 className="mb-3">Features</h5>
                     <List className="mb-5 list-unstyled">
                         <li className="mb-2">Business Marketing</li>
                         <li className="mb-2">User Analytic</li>
@@ -61,7 +61,7 @@ const RequestCons = () => (
                     </List>
                 </div>
                 <div className="col">
-                    <p className="mb-3">Resources</p>
+                    <h5 className="mb-3">Resources</h5>
                     <List className=" list-unstyled mb-5">
                         <li className="mb-2">IOS &amp; Android</li>
                         <li className="mb-2">&quot;Watch&quot; a Demo</li>
@@ -70,11 +70,11 @@ const RequestCons = () => (
                     </List>
                 </div>
                 <div className="col">
-                    <p className="mb-3">Get In Touch</p>
+                    <h5 className="mb-3">Get In Touch</h5>
                     <ul className="list-unstyled mb-5">
-                        <li><img src={phone} className="me-3 text" alt="phone"/>(480) 555-0103</li>
-                        <li><img src={map2} className="me-3 text" alt="map"/>4517 Washington Ave.</li>
-                        <li><img src={arrow2} className="me-3 text" alt="arrow"/>debra.holt@example.com</li>
+                        <li><img src={phone} className="me-2 text mt-2" alt="phone"/>(480) 555-0103</li>
+                        <li><img src={map2} className="me-2 text" alt="map"/>4517 Washington Ave.</li>
+                        <li className="text wordbreak"><img src={arrow2}  alt="arrow" className="me-2 py-2" />debra.holt@example.com</li>
                     </ul>
                 </div>
             </div>

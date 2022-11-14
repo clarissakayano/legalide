@@ -19,6 +19,9 @@ export const ContainerRequest = styled.div`
 .align{
     text-align: -webkit-center;
 }
+.wordbreak{
+    word-break: break-all;
+}
 `;
 
 export const Text = styled.h3`
@@ -33,6 +36,7 @@ color: white;
 export const List = styled.div`
     margin-bottom: 2px;
     font-family: 'Open Sans';
+    font-weight: 600;
     align-items: flex-start;
 `;
 
