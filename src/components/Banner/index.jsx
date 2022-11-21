@@ -1,47 +1,44 @@
 import woman from '../../assets/woman.png';
-import {BannerContainer, ButtonMain, ContainerMobile, MobileMenu} from './style';
+import {BannerContainer, ContainerMobile,} from './style';
 import {Title} from './style';
 import {Log} from './style';
 import {Nav} from './style';
 import { Sub } from './style';
+import { useState } from 'react';
+import { MenuMobile } from '../MenuMobile';
+import { FiAlignCenter } from "react-icons/fi";
 
-const Banner = () => (
+const Banner = () => {
+    const [menuIsVisible, setMenuIsVisible] = useState(true);
+    return(
+    <>
     <BannerContainer>
         <header>
             <div>
                 <div className="container d-flex justify-content-between">
                     <Log className="col-md-6 mt-4 d-none d-md-block d-lg-block d-xl-block">Legalide</Log>
                     <Nav className="d-flex p-4 col-md-6 row-col-none d-none d-md-block d-lg-block d-xl-block">
-                        <div className="d-flex justify-content-between">
+                        <nav className="d-flex justify-content-between">
                             <a href="#Practice">Practice Areas</a>
                             <a href="#Advice">Practice Advice</a>
                             <a href="#Who">Who we are</a>
                             <a href="#Contact">Contact</a>
-                        </div>
+                        </nav>
                     </Nav>
                 </div>
+
                 <ContainerMobile>
                     <div className="container d-md-none ">
                         <div className="row">
-                            <Log className="col-6 p-3">Legalide</Log>
-                            <nav className="col-6 navbar navbar-dark">
-                                <div className="container-fluid d-flex justify-content-center">
-                                    <ButtonMain className="navbar-toggler" type="button"
-                                    data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent"
-                                    aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                                    <span className="navbar-toggler-icon"></span>
-                                    </ButtonMain>
-                                </div>
-                            </nav>
+                            <Log className="d-flex justify-content-between mt-2">Legalide
+
+                            <FiAlignCenter className="" color='white' size={20} onClick={() =>setMenuIsVisible(true)} />
+                            </Log>
+                            <MenuMobile
+                            menuIsVisible={menuIsVisible}
+                            setMenuIsVisible={setMenuIsVisible}
+                            />
                         </div>
-                        <MobileMenu className="bar-color mobile-menu" id="navbarToggleExternalContent">
-                            <div className="bg-menu p-4 col">
-                            <li className="mt-3"><a href="#Legal">Home</a></li>
-                            <li className="mt-3"><a href="#Practice">Product</a></li>
-                            <li className="mt-3"><a href="#Contact">Pricing</a></li>
-                            <li className="mt-3"><a href="#ContactUs">Contact</a></li>
-                            </div>
-                        </MobileMenu>
                     </div>
                 </ContainerMobile>
             </div>
@@ -66,5 +63,7 @@ const Banner = () => (
             </div>
         </div>
     </BannerContainer>
-);
+    </>
+    )
+}
 export default Banner;

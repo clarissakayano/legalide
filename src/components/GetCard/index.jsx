@@ -12,11 +12,11 @@ const GetCard = ({ image, email1, email2, color="dark", button = false, button2 
              <Title2 className="card-title mt-2 mb-3">Get Support</Title2>
             {button &&
                 <div className="mb-3">
-                    <a href="https://www.google.com/" className="btn btn-primary">{button}</a>
+                    <a href="https://www.google.com/" target="blank" className="btn btn-primary">{button}</a>
                 </div>}
             {button2 &&
             <div  className="mb-3">
-                <a href="https://www.google.com/" className="btn btn-primary2">{button2}</a>
+                <a href="https://www.google.com/" target="blank" className="btn btn-primary2">{button2}</a>
             </div>
             }
         </div>

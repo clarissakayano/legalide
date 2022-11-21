@@ -13,7 +13,7 @@ import Video from '../Video';
 
 const WhoWeAre = () => (
        <ContainerWho id="Who">
-            <div className="container ">
+            <div className="container">
             <section className="py-5">
                 <div className="row">
                     <div className='col'>
@@ -37,8 +37,8 @@ const WhoWeAre = () => (
                             simple way to plan their schedule."
                         />
                         <div>
-                            <p><img src={icon1} className="me-3 text"/>the quick fox jumps over the lazy dog</p>
-                            <p><img src={icon2} className="me-3 text"/>the quick fox jumps over the lazydog</p>
+                            <p><img src={icon1} alt="group" className="me-3 text"/>the quick fox jumps over the lazy dog</p>
+                            <p><img src={icon2} alt="radar" className="me-3 text"/>the quick fox jumps over the lazydog</p>
                         </div>
                     </div>
                 </div>

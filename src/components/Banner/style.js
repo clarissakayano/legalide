@@ -32,6 +32,22 @@ export const BannerContainer = styled.section`
     background-color:#D0A144;
   }
 
+#drawer-menu{
+  position:fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width:200px;
+  height: 100%;
+  background-color: 0,0,0.9;
+  color: ffff;
+  padding: 30px;
+}
+
+#menu-toggle:checked - #drawer-menu{
+  left:0;
+}
+
 /* unvisited link */
 a:link {
     color: #FFFF;
