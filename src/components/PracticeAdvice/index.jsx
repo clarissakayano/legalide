@@ -14,8 +14,8 @@ const PracticeAdvice =() => (
             description2="the two major realms of Classical physics: Newtonian mechanics"
         />
         <div className="container">
-            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4">
-                <div className="col mt-3 d-flex px-4">
+            <div className="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4">
+                <div className="col d-flex">
                 <Card2
                     title="Frauds or
                     Mislead"
@@ -27,7 +27,7 @@ const PracticeAdvice =() => (
                     alt="card"
                     />
                 </div>
-                <div className="col mt-3 d-flex px-4">
+                <div className="col d-flex ">
                 <Card2
                     title="Bailes &amp;
                     Warrants"
@@ -37,7 +37,7 @@ const PracticeAdvice =() => (
                     image={cover3}
                     alt="card2"/>
                 </div>
-                <div className="col d-flex mt-3 px-4">
+                <div className="col">
                 <Card2
                     title="Federal Drug
                     Crimes"
@@ -47,7 +47,7 @@ const PracticeAdvice =() => (
                     image={table}
                     alt="card3"/>
                 </div>
-                <div className="col mt-3 d-flex px-4">
+                <div className="col d-flex ">
                 <Card2
                     title="Traffic Related
                     Crimes"

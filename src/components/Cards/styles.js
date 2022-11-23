@@ -7,7 +7,6 @@ export const Card1 = styled.div`
     height: 147px;
     background: #FFFFFF;
     box-shadow: 0px 13px 19px rgba(0,0,0,0.7);
-    border-radius: 5px;
     text-align:center;
     font-family: 'Martel', serif;
 

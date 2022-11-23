@@ -11,4 +11,16 @@ export const ContainerWho = styled.div`
 }
 `;
 
+export const Title = styled.h2`
+    color: white;
+    font-family: Martel Sans;
+    font-weight: 700;
+
+    `;
+
+export const Sub = styled.p`
+    font-family: Open sans;
+
+`;
+
 

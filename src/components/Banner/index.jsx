@@ -9,7 +9,7 @@ import { MenuMobile } from '../MenuMobile';
 import { FiAlignCenter } from "react-icons/fi";
 
 const Banner = () => {
-    const [menuIsVisible, setMenuIsVisible] = useState(true);
+    const [menuIsVisible, setMenuIsVisible] = useState(false);
     return(
     <>
     <BannerContainer>
@@ -30,7 +30,7 @@ const Banner = () => {
                 <ContainerMobile>
                     <div className="container d-md-none ">
                         <div className="row">
-                            <Log className="d-flex justify-content-between mt-2">Legalide
+                            <Log className="d-flex justify-content-between mt-3">Legalide
 
                             <FiAlignCenter className="" color='white' size={20} onClick={() =>setMenuIsVisible(true)} />
                             </Log>

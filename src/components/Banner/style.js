@@ -44,9 +44,6 @@ export const BannerContainer = styled.section`
   padding: 30px;
 }
 
-#menu-toggle:checked - #drawer-menu{
-  left:0;
-}
 
 /* unvisited link */
 a:link {

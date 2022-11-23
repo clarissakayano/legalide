@@ -4,7 +4,7 @@ import {Email, GetIn, Title2} from "./styles";
 
 const GetCard = ({ image, email1, email2, color="dark", button = false, button2 = false, backgroundColor}) => (
 
-    <GetIn className={`card d-flex w-100 text-${color}`} backgroundColor={backgroundColor}>
+    <GetIn className={`card w-100 text-${color}`} backgroundColor={backgroundColor}>
         <div className="card-body d-flex flex-column align-items-center justify-content-center">
             <img className="mt-3 mb-3" src={image} alt="..." />
             <Email className="card-text mt-2">{email1}</Email>

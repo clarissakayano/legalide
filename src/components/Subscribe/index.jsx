@@ -11,25 +11,25 @@ import et from '../../assets/et6.png';
 
 const Subscribe = () => (
     <Sub>
-        <div className="container mt-5">
-            <div className="row text-center g-4">
-                    <div className="col-md-2 mb-2">
-                        <img src={hooli} alt="logo" />
+        <div className="container ">
+            <div className="row text-center g-4 mt-5 mb-3 ">
+                    <div className="col-md-2 d-flex justify-content-center mb-2">
+                        <img  className="d-flex mb-2" src={hooli} alt="logo" />
                     </div>
-                    <div className="col-md-2 mb-2">
-                        <img src={lya} alt="logo" />
+                    <div className="col-md-2 d-flex justify-content-center  mb-2">
+                        <img className="d-flex mb-2" src={lya} alt="logo" />
                     </div>
-                    <div className="col-md-2 mb-2">
-                        <img src={leaf} alt="logo" />
+                    <div className="col-md-2 d-flex justify-content-center  mb-2">
+                        <img className="d-flex mb-2" src={leaf} alt="logo" />
                     </div>
-                    <div className="col-md-2 mb-2">
-                        <img src={stripe} alt="logo" />
+                    <div className="col-md-2 d-flex justify-content-center  mb-2">
+                        <img className="d-flex mb-2" src={stripe} alt="logo" />
                     </div>
-                    <div className="col-md-2 mb-2">
-                        <img src={aws} alt="logo" />
+                    <div className="col-md-2 d-flex justify-content-center  mb-2">
+                        <img className="d-flex mb-2" src={aws} alt="logo" />
                     </div>
-                    <div className="col-md-2 mb-2">
-                        <img src={et} alt="logo" />
+                    <div className="col-md-2 d-flex justify-content-center  mb-2">
+                        <img className="d-flex mb-2" src={et} alt="logo" />
                     </div>
             </div>
         </div>

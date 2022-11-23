@@ -5,17 +5,15 @@ display: flex;
 position: absolute;
 backdrop-filter: blur(3px);
 width: 100%;
-height: 100%;
+height:50%;
 top: 0;
 left: 0;
 right:0;
 bottom:0;
-z-index:1;
 align-items: center;
 justify-content: center;
 
-background: #252b4200;
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(37,43,66,1) 40%, rgba(0,212,255,1) 100%);
+background: #252b42;
 
 opacity: 0;
 pointer-events: none;
@@ -23,12 +21,15 @@ transform: translateY(50px);
 
 transition: .5s;
 
+a{
+    font-size: 30px;
+}
 
 svg{
     position: absolute;
     top:1rem;
     right:1rem;
-    transform: rotate(45deg);
+    transform: rotate(100deg);
     transition: .7s;
 
 }

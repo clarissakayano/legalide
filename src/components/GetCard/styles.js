@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 export const GetIn = styled.div`
     background-color: ${(props) => props.backgroundColor};
-
+    border-radius: 0;
     .card-text{
         font-size: 14px;
     }

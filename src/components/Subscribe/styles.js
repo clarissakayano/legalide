@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Sub = styled.div`
 
 .bg-blue {
-    background: linear-gradient(270deg, #295C7A -1.04%, #0072B5 100%);
+    background: #0f699f;
     border-radius: 4px;
 }
 

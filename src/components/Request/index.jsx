@@ -1,8 +1,6 @@
 import './styles';
 import { Button, Container, ContainerRequest, Sub, Text } from './styles';
 import { List } from './styles';
-import MainTitle from '../MainTitle';
-
 import phone from '../../assets/phone.png';
 import map2 from '../../assets/map2.png';
 import arrow2 from '../../assets/arrow2.png'
@@ -15,15 +13,15 @@ const RequestCons = () => (
 <>
     <Container className="mb-4">
         <div className="container mt-5" id="ContactUs">
-            <div className="row d-flex d-sm-flex">
+            <div className="row d-flex d-sm-flex justify-content-evenly">
                 <div className="col-md-6 row-cols p-2">
-                    <div className="d-flex flex-column align-items-md-start text-center">
+                    <div className="d-flex flex-column align-items-md-start px-lg-4 text-center">
                         <Text>Request A Free Consultation</Text>
                         <Sub className="align-self-center align-self-lg-start">the quick fox jumps over the lazy dog</Sub>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-7 g-sm-1">
-                    <div className="d-flex justify-content-center">
+                <div className="col-lg-2 col-md-6 col-sm-7 g-sm-1">
+                    <div className="d-flex justify-content-center align-self-lg-end">
                         <Button>Contact Us</Button>
                     </div>
                 </div>
@@ -72,7 +70,7 @@ const RequestCons = () => (
                 <div className="col">
                     <h5 className="mb-3">Get In Touch</h5>
                     <ul className="list-unstyled mb-5">
-                        <li><img src={phone} className="me-2 text mt-2" alt="phone"/>(480) 555-0103</li>
+                        <li><img src={phone} className="me-2 text mt-2 mb-3" alt="phone"/>(480) 555-0103</li>
                         <li><img src={map2} className="me-2 text" alt="map"/>4517 Washington Ave.</li>
                         <li className="text wordbreak"><img src={arrow2}  alt="arrow" className="me-2 py-2" />debra.holt@example.com</li>
                     </ul>
