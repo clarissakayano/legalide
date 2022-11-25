@@ -4,7 +4,7 @@ export const Sub = styled.div`
 
 .bg-blue {
     background: #0f699f;
-    border-radius: 4px;
+    border-radius: 2px;
 }
 
 .btn-sub {

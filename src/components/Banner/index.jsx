@@ -6,18 +6,19 @@ import {Nav} from './style';
 import { Sub } from './style';
 import { useState } from 'react';
 import { MenuMobile } from '../MenuMobile';
-import { FiAlignCenter } from "react-icons/fi";
+import { FiMenu} from "react-icons/fi";
 
 const Banner = () => {
     const [menuIsVisible, setMenuIsVisible] = useState(false);
+
     return(
     <>
-    <BannerContainer>
+    <BannerContainer >
         <header>
             <div>
                 <div className="container d-flex justify-content-between">
-                    <Log className="col-md-6 mt-4 d-none d-md-block d-lg-block d-xl-block">Legalide</Log>
-                    <Nav className="d-flex p-4 col-md-6 row-col-none d-none d-md-block d-lg-block d-xl-block">
+                    <Log className="col mt-4 d-none d-md-block d-lg-block d-xl-block">Legalide</Log>
+                    <Nav className="d-flex p-4 col-md-9 col-lg-8 row-col-none d-none d-md-block d-lg-block d-xl-block">
                         <nav className="d-flex justify-content-between">
                             <a href="#Practice">Practice Areas</a>
                             <a href="#Advice">Practice Advice</a>
@@ -32,7 +33,8 @@ const Banner = () => {
                         <div className="row">
                             <Log className="d-flex justify-content-between mt-3">Legalide
 
-                            <FiAlignCenter className="" color='white' size={20} onClick={() =>setMenuIsVisible(true)} />
+                            <FiMenu color='white' size={20} onClick={() => setMenuIsVisible(true)}
+                            />
                             </Log>
                             <MenuMobile
                             menuIsVisible={menuIsVisible}
@@ -44,7 +46,7 @@ const Banner = () => {
             </div>
         </header>
 
-        <div className="container">
+        <div className="container" onClick={() => setMenuIsVisible(false)}>
             <div className="row">
                 <div className="col d-flex flex-column justify-content-center">
                     <Title className="mt-4 py-4 text-center text-md-start" id="Legal">LEGAL PRO SERVICES</Title>

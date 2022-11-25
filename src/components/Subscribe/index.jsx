@@ -32,19 +32,18 @@ const Subscribe = () => (
                         <img className="d-flex mb-2" src={et} alt="logo" />
                     </div>
             </div>
-        </div>
-        <div className="container mt-5">
-            <div className="row d-flex d-sm-flex bg-blue">
-                <div className="col-md-6 row-cols p-2">
-                    <Text className="text-center text-lg-start mt-3">Subscribe For Latest<br></br>
-                    Newsletter</Text>
-                </div>
-                <div className="col-md-6 d-flex p-4">
-                    <input type="email" className="form-control inputtext" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email"/>
-                    <button className="btn-sub">Subscribe</button>
+            <div className="container">
+                <div className="row d-flex d-sm-flex bg-blue">
+                    <div className="col-md-6 row-cols p-2">
+                        <Text className="text-center text-lg-start mt-3">Subscribe For Latest<br></br>
+                        Newsletter</Text>
+                    </div>
+                    <div className="col-md-6 d-flex p-4">
+                        <input type="email" className="form-control inputtext" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Your Email"/>
+                        <button className="btn-sub">Subscribe</button>
+                    </div>
                 </div>
             </div>
-
         </div>
 
 

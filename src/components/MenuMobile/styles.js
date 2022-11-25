@@ -3,7 +3,6 @@ import styled, { css } from "styled-components";
 export const Container = styled.section`
 display: flex;
 position: absolute;
-backdrop-filter: blur(3px);
 width: 100%;
 height:50%;
 top: 0;
@@ -55,5 +54,33 @@ ${({isVisible}) => isVisible && css`
     transform: scale(1);
  }
 `}
+
+
+#menu-background{
+    color: transparent;
+    height:100%;
+    width:100%;
+    z-index: 9;
+}
+
+#height{
+ min-height: -webkit-fill-available;
+}
+
+`;
+
+
+export const Overlay = styled.div`
+${({theme}) => css`
+background: rgba(0,0,0,0.5);
+position: fixed;
+top:0;
+bottom:0;
+left:0;
+right:0;
+z-index: ${theme.layers.overlay};
+`}
+
+
 
 `;
