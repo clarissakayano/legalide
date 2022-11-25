@@ -94,18 +94,6 @@ export const Nav = styled.nav`
       list-style: none;
     }
     `;
-export const MobileMenu = styled.div`
-  font-family: Open Sans;
-  font-size: 25px;
-    li{
-      display: flex;
-      justify-content: center;
-      list-style: none;
-    }
-    .bg-menu{
-      background-color:rgba(37, 43, 66, 1);
-    }
-`;
 
 export const Log = styled.h3`
     color: white;

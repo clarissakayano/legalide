@@ -12,16 +12,16 @@ const Footer = () => (
                 <Text className="px-3">Made With Love By Figmaland All Right Reserved </Text>
             </div>
             <div className="d-flex align-items-center justify-content-center justify-content-lg-end">
-                    <div className="me-2">
+                    <div className="me-4">
                        <a href="https://www.facebook.com/" target="blank"><img src={face} alt="facebook"/></a>
                     </div>
-                    <div  className="me-2">
+                    <div  className="me-4">
                     <a href="https://www.instagram.com/" target="blank"><img src={instagram} alt="instagram" /></a>
                     </div>
-                    <div className="me-2">
+                    <div className="me-4">
                         <a  href="https://www.youtube.com/" target="blank"><img src={youtube} alt="youtube" /></a>
                     </div>
-                    <div  className="me-2">
+                    <div  className="me-4">
                         <a href="https://twitter.com/i/flow/login" target="blank"><img src={twitter} alt="twitter" /></a>
                     </div>
             </div>

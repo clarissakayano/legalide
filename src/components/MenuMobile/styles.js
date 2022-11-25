@@ -40,6 +40,7 @@ nav{
     flex-direction: column;
     gap: 2rem;
     transform: .7s;
+    margin-top: 70px;
 }
 
 ${({isVisible}) => isVisible && css`
@@ -63,10 +64,6 @@ ${({isVisible}) => isVisible && css`
     z-index: 9;
 }
 
-#height{
- min-height: -webkit-fill-available;
-}
-
 `;
 
 
@@ -80,7 +77,5 @@ left:0;
 right:0;
 z-index: ${theme.layers.overlay};
 `}
-
-
 
 `;

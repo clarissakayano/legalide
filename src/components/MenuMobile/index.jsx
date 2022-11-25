@@ -10,7 +10,7 @@ export function MenuMobile({menuIsVisible, setMenuIsVisible}) {
         <Container isVisible={menuIsVisible}>
            <div id="menu-background" onClick={() => setMenuIsVisible(false)}>
                 <FiXCircle color="white" size={30} onClick={() => setMenuIsVisible(false)} />
-                <div className="d-flex justify-content-center" id="height">
+                <div className="d-flex justify-content-center">
                     <nav className="">
                         <a href="#Practice">Practice Areas</a>
                         <a href="#Advice">Practice Advice</a>
